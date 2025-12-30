@@ -1,14 +1,19 @@
 <template>
   <div id="app">
+    <OutdatedBanner />
     <alert></alert>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+import OutdatedBanner from "@/components/OutdatedBanner.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    OutdatedBanner,
+  },
   watch: {
     $route: function (to, from) {
       from;

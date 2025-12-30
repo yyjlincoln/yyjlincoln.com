@@ -5,7 +5,7 @@ import Vue from "vue";
 import ProductData from "../product-data.json";
 import { isLocalDev } from "../utils";
 
-const endpoint = "https://apis.yyjlincoln.com";
+const endpoint = process.env.VUE_APP_API_URL || "https://apis.yyjlincoln.com";
 const version = "{{{ VERSION }}}";
 const downloaded = new Date().getTime();
 const versionIdentifier = `${version}@${String(downloaded)}`;
