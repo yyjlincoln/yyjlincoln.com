@@ -1,0 +1,7 @@
+{
+  "name": "nexttemplate",
+  "server_name": "nexttemplate.yyjlincoln.com",
+  "registry": "ghcr.io",
+  "repository": "ghcr.io/yyjlincoln/nexttemplate",
+  "platforms": ["linux/amd64"]
+}

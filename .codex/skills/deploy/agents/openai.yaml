@@ -1,0 +1,6 @@
+interface:
+  display_name: "Deploy Site"
+  short_description: "Save changes and publish the website"
+  default_prompt: "Use $deploy to save my changes and publish the site."
+policy:
+  allow_implicit_invocation: true

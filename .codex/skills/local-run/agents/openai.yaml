@@ -1,0 +1,6 @@
+interface:
+  display_name: "Run Locally"
+  short_description: "Start or stop the local site preview"
+  default_prompt: "Use $local-run to start the website locally so I can preview it."
+policy:
+  allow_implicit_invocation: true
