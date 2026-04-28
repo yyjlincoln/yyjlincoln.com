@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Deploy Template",
-  description: "A Next.js template with Docker and one-command deployments",
+  title: "Lincoln Yan | lincoln@next",
+  description: "Lincoln Yan's personal website",
 };
 
 export default function RootLayout({
